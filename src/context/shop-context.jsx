@@ -9,7 +9,7 @@ const getDefaultCart = () => {
         cart[i] = 0;
 
     }
-    return cart;
+    return cart; 
 };
 
 const ShopContextProvider = (props) => {
@@ -26,7 +26,7 @@ const ShopContextProvider = (props) => {
         return totalAmount;
       };
 
-
+        console.log(cartItems)
     const addToCart = (itemId) => {
         setCartItems((prev) => ({...prev, [itemId]: prev[itemId] + 1})); 
     };
