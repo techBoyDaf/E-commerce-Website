@@ -6,6 +6,13 @@ import product5 from './assets/5.png';
 import product6 from './assets/6.png';
 import product7 from './assets/7.png';
 import product8 from './assets/8.png';
+import product9 from './assets/9.jpeg';
+import product10 from './assets/10.jpeg';
+import product11 from './assets/11.jpeg';
+import product12 from './assets/12.jpeg';
+
+
+
 
 export const PRODUCTS = [
     {
@@ -55,5 +62,29 @@ export const PRODUCTS = [
         productName:"Face cap",
         price:10.0,
         productImage:product8
+    },
+    {
+        id:9,
+        productName:"Kicks",
+        price:70.0,
+        productImage:product9
+    },
+    {
+        id:10,
+        productName:"Beard Oil",
+        price:15.0,
+        productImage:product10
+    },
+    {
+        id:11,
+        productName:"Beard Oil",
+        price:15.0,
+        productImage:product11
+    },
+    {
+        id:12,
+        productName:"Beard Oil",
+        price:15.0,
+        productImage:product12
     }
 ];

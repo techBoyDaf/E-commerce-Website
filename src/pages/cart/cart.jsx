@@ -18,7 +18,7 @@ import { useNavigate } from "react-router-dom";
                     <h1>Your Cart Items</h1>
                     </div>  
                     <div className="cart">
-                    {PRODUCTS.map((product)=>{
+                    {(PRODUCTS || []).map((product)=>{
                             if(cartItems[product.id] !== 0){ 
                                    return <CartItems key={product.id} data={product} />;
                             }
